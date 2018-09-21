@@ -1,5 +1,5 @@
 body {
-	margin: 20px 170px 20px 170px; 
+	margin: 0px 180px 0px 180px; 
 	background-color: none;
 	text-align: center;
 	line-height: 25px;
@@ -7,7 +7,7 @@ body {
 
 body p  {
 	font-family: 'Cormorant Garamond', serif;
-	font-size: 18px;
+	font-size: 20px;
 
 }
 
@@ -23,6 +23,7 @@ body p  {
 	padding: 12px 12px;
 	display: flex;
 	justify-content: flex-end;
+	margin: 0px -180px 0px -180px;
 
 }
 
@@ -30,13 +31,19 @@ body p  {
 	color: white;
 	text-decoration: none;
 	border-left: 1px solid white;
-	font-size: 18px;
+	font-size: 20px;
 	font-family: 'Fira Sans', sans-serif;
 	margin-right: 25px;
 }
 
+.hero-image {
+	margin: -20px -280px 0px -280px;
+}
+
 q {
-	font-family: 'Lobster', cursive; }
+	font-family: 'Lobster', cursive;
+	font-size: 20px;
+}
 
 
 
@@ -47,5 +54,6 @@ h3 {
 
 footer {
 	background-color: #3366ff;
-	padding: 30px 0px 30px 0px;
+	padding: 80px;
+	margin: 0px -180px 0px -180px;
 }
