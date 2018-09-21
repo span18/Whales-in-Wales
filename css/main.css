@@ -2,6 +2,7 @@ body {
 margin: 20px 170px 20px 170px; 
 background-color: none;
 text-align: center;
+line-height: 25px;
 }
 
 
@@ -9,4 +10,18 @@ text-align: center;
 	font-size: 80px;
 	color: #3366ff;
 	font-family: 'Fira Sans', sans-serif;
+	margin-bottom: 70px;
+}
+
+q {
+	font-family: 'Lobster', cursive; }
+
+.P {
+	font-family: 'Lobster', cursive;
+
+}
+
+h3 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 40px;
 }
