@@ -1,8 +1,12 @@
 body {
-margin: 20px 170px 20px 170px; 
-background-color: none;
-text-align: center;
-line-height: 25px;
+	margin: 20px 170px 20px 170px; 
+	background-color: none;
+	text-align: center;
+	line-height: 25px;
+}
+
+.top-header {
+		margin: 0px;
 }
 
 
@@ -11,6 +15,11 @@ line-height: 25px;
 	color: #3366ff;
 	font-family: 'Fira Sans', sans-serif;
 	margin-bottom: 70px;
+}
+
+#navbar {
+	background-color: #3366ff;
+	color: white;
 }
 
 q {
