@@ -1,5 +1,6 @@
 body {
 	margin: 0px 180px 0px 180px; 
+	box-shadow: -8px -8px 15px #f2f2f2;
 	background-color: none;
 	text-align: center;
 	line-height: 25px;
@@ -10,8 +11,8 @@ body p  {
 	font-size: 20px;
 	margin: 0px 80px 20px 80px;
 
-
 }
+
 
 #main-title {
 	font-size: 80px;
@@ -25,7 +26,6 @@ body p  {
 	padding: 12px 12px;
 	display: flex;
 	justify-content: flex-end;
-	margin: 0px -180px 0px -180px;
 
 }
 
@@ -63,5 +63,4 @@ h3 {
 footer {
 	background-color: #3366ff;
 	padding: 80px;
-	margin: 0px -180px 0px -180px;
 }
