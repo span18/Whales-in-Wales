@@ -8,6 +8,8 @@ body {
 body p  {
 	font-family: 'Cormorant Garamond', serif;
 	font-size: 20px;
+	margin: 0px 80px 20px 80px;
+
 
 }
 
@@ -37,6 +39,10 @@ body p  {
 	margin-right: 25px;
 }
 
+#spacing {
+	margin-bottom: 35px;
+}
+
 .hero-image {
 	margin: -20px -280px 0px -280px;
 }
@@ -44,6 +50,7 @@ body p  {
 q {
 	font-family: 'Lobster', cursive;
 	font-size: 20px;
+	margin-bottom: 50px: 
 }
 
 
