@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Fira+Sans|Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Anton|Fira+Sans|Lobster|Open+Sans" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Anton|Cormorant+Garamond|Fira+Sans|Lobster|Open+Sans" rel="stylesheet">
@@ -11,8 +12,8 @@
 <body>
 	<header>
 		<nav id="navbar">
-			<a href="#">About</a>
-			<a href="#">Contact</a>
+			<a href="#middle">About</a>
+			<a href="#top">Contact</a>
 		</nav>
 
 		<h3 id="main-title">Whales In Wales</h3> <!-- Have the word Wales with the countries background -->
@@ -28,7 +29,7 @@
 		<div id="spacing">
 			<q>When the group of Orca get together at night they love to watch the Whale of Fortune!</q>
 		</div>
-
+			<a name="middle"></a>
 			<p>Whale Whale Whale, what do we have here. Whales in Wales a place for the community to showcase their Whale sightings off the Welsh coast</p>
 
 			<p>Whalest your out and about on the coast of Wales. Keep an eye out on the water for whales calling to you, take a snap on your phone or camera and send them to us. Whale get back to within 24 hours to tell you that you’re being featured. </p>
@@ -65,21 +66,58 @@
 	</section>
 
 	<footer>
+		<div class="container">
+			<a name="top"></a>
+			<h3>Contact Us</h3>
+				<form id="contact" action="" method="post">
+
+				<label for="fullname"></label>
+				<input id="fullname" placeholder="Your Name.." type="text" name="fullname">
+				
+				<label for="contactNumber"></label>	
+				<input id="contactNumber" placeholder="Contact Number.." type="tel" name="contactNumber">
+				
+				<label for="email"></label>	
+				<input id="email" placeholder="Your Email.." type="text" name="email">
+
+				<label for="subject"></label>
+					<select id="pictureType" name="pictureType">
+						<option value="whales">Whales Of The Week</option>
+						<option value="wales">Wales Of The Week</option>
+					</select>
+
+				<label for="comment"></label>
+					<textarea id="comment" placeholder="Leave A Comment.." type="text" name="comment"></textarea>
+
+				<input type="submit" value="submit">
+			</form>
+		</div>
+	
+	</footer>
+
+
+
+
+
+<!--
+	<footer>
 		<header>
 			<h3>Contact Us</h3>
 		</header>
 
 		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
 			<form id="contact" action="" method="post">
 				<label for="fullname">Full Name</label>
 				<input id="fullname" placeholder="Your Name.." type="text" name="fullname">
-				
+				<div class="col">
 				<label for="contactNumber">Contact Number</label>	
 				<input id="contactNumber" placeholder="Contact Number.." type="number" name="contactNumber">
-				
+				<div class="col">
 				<label for="email">Email</label>	
 				<input id="email" placeholder="Email.." type="text" name="email">
-				
+				<div class="col">
 				<label for="subject">Picture Type</label>
 					<select id="pictureType" name="pictureType">
 						<option value="whales">Whales Of The Week</option>
@@ -92,7 +130,20 @@
 				<input type="submit" value="submit">
 			</form>
 		</div>
+			<div class="row">
+				<div class="col-sm-6">
+			<h3>Previous Winners</h3>
+				<img src="Images/wales1.jpg" width="50px" height="50px" alt="picture of wales">
+				<img src="Images/wales2.jpg" width="50px" height="50px" alt="picture of wales">
+				<img src="Images/wales3.jpg" width="50px" height="50px" alt="picture of wales">
+				<img src="Images/wales4.jpg" width="50px" height="50px" alt="picture of wales">
+				<img src="Images/wales1.jpg" width="50px" height="50px" alt="picture of wales">
+				<img src="Images/wales2.jpg" width="50px" height="50px" alt="picture of wales">
+				<img src="Images/wales3.jpg" width="50px" height="50px" alt="picture of wales">
+				<img src="Images/wales4.jpg" width="50px" height="50px" alt="picture of wales">
+		</div>
+	</div>
 	</footer>
-
+		-->
 </body>
 </html>
