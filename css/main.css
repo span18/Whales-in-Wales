@@ -42,8 +42,11 @@ body p  {
 	margin-bottom: 35px;
 }
 
-.hero-image {
+.img-responsive {
 	margin: -20px -280px 0px -280px;
+	width: 100%;
+	max-width: 1000px;
+
 }
 
 q {
@@ -66,7 +69,7 @@ footer {
 	margin-left: 10px;
 	padding: 20px;
 }
-
+		/* Footer info including contact form */
 form {
 	display: flex;
 	flex-direction: column;
@@ -101,7 +104,7 @@ input[type=tel] {
 }
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: #3333cc;
     width: 8%;
     margin-top: 6px;
     color: white;
@@ -112,8 +115,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #7171da;
 }
+
 
 
 
