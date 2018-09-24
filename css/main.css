@@ -13,11 +13,17 @@ body p  {
 
 }
 
-#main-title {
+#main-title {		/*Info containing main title, nav bar*/ 
 	font-size: 80px;
 	color: #3366ff;
 	font-family: 'Fira Sans', sans-serif;
 	margin-bottom: 70px;
+}
+
+@media screen and (max-width: 980px) {
+  #main-title {
+    font-size: 50px;
+  }
 }
 
 #navbar {
@@ -44,9 +50,8 @@ body p  {
 
 .img-responsive {
 	margin: -20px -280px 0px -280px;
-	width: 100%;
+	width: 90%;
 	max-width: 1000px;
-
 }
 
 q {
@@ -60,7 +65,7 @@ h3 {
 	font-size: 40px;
 }
 
-footer {
+footer {			/* Footer info and contact form */
 	background-color: #3366ff;
 }
 
@@ -69,7 +74,7 @@ footer {
 	margin-left: 10px;
 	padding: 20px;
 }
-		/* Footer info including contact form */
+				
 form {
 	display: flex;
 	flex-direction: column;
